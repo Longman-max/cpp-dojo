@@ -1,0 +1,1 @@
+int S_variable = 5;
