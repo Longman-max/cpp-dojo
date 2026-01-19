@@ -19,15 +19,19 @@ public:
     std::string GetName() override { return m_Name; }
 };
 
+void PrintName(Entity* entity)
+{
+    std::cout << entity-> GetName() << std::endl;
+}
+
 int main()
 {
 
     Entity* e = new Entity();
-    std::cout << e->GetName() << std::endl;
+    PrintName(e);
 
     Player* p = new Player("Obasi");
-    std::cout << p->GetName() << std::endl;
-
+    PrintName(p);
 
     return 0;
 
