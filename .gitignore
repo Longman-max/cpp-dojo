@@ -39,37 +39,23 @@
 *.out
 *.app
 
-# Compiled binaries without extensions (Linux/Unix executables)
-01-basics/conditions/conditions
-01-basics/enums/part2/main
-01-basics/headers/headers_files
-01-basics/keywords/
-01-basics/loops/forloops
-01-basics/loops/loops
-01-basics/loops/range
-01-basics/loops/whileloops
-01-basics/strings/
-02-oop/classes/Robots
-02-oop/classes/class
-02-oop/classes/managing_objects_with_loops/main
-02-oop/classes/test
-02-oop/inheritance/main
-02-oop/inheritance/sample
-02-oop/interfaces/drivingExample
-02-oop/static/Static_Classes_Structs
-02-oop/static/main
-02-oop/static/static
-02-oop/virtualFunctions/PaymentMethod
-02-oop/virtualFunctions/main
-02-oop/visibility/main
-03-memory/pointers/Pointers
-03-memory/references/References1
-03-memory/references/references
-03-memory/smart-pointers/
-04-data-structures/arrays/
-04-data-structures/structs/Struct
-02-oop/constructors/entity
-02-oop/interfaces/drivingExample
+# Ignore all files without extensions (compiled binaries on Unix)
+# But keep .cpp, .h, .hpp, .c, .cc files
+*
+!*.*
+!*/
+!.gitignore
+!.vscode/
+!*.cpp
+!*.h
+!*.hpp
+!*.c
+!*.cc
+!*.md
+!*.txt
+!*.sh
+!Makefile
+!CMakeLists.txt
 
 # Build directories
 build/
