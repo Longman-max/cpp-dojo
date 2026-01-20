@@ -1,0 +1,101 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Linker files
+*.ilk
+
+# Debugger Files
+*.pdb
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+*.so.*
+
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Compiled binaries without extensions (Linux/Unix executables)
+01-basics/conditions/conditions
+01-basics/enums/part2/main
+01-basics/headers/headers_files
+01-basics/keywords/
+01-basics/loops/forloops
+01-basics/loops/loops
+01-basics/loops/range
+01-basics/loops/whileloops
+01-basics/strings/
+02-oop/classes/Robots
+02-oop/classes/class
+02-oop/classes/managing_objects_with_loops/main
+02-oop/classes/test
+02-oop/inheritance/main
+02-oop/inheritance/sample
+02-oop/interfaces/drivingExample
+02-oop/static/Static_Classes_Structs
+02-oop/static/main
+02-oop/static/static
+02-oop/virtualFunctions/PaymentMethod
+02-oop/virtualFunctions/main
+02-oop/visibility/main
+03-memory/pointers/Pointers
+03-memory/references/References1
+03-memory/references/references
+03-memory/smart-pointers/
+04-data-structures/arrays/
+04-data-structures/structs/Struct
+02-oop/constructors/entity
+02-oop/interfaces/drivingExample
+
+# Build directories
+build/
+Build/
+build-*/
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+install_manifest.txt 
+compile_commands.json
+
+# Temporary files
+*.tmp 
+*.log 
+*.bak 
+*.swp 
+
+# vcpkg
+vcpkg_installed/
+
+# debug information files
+*.dwo
+
+# test output & cache
+Testing/
+.cache/
